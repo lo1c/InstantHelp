@@ -99,7 +99,7 @@
 	  	</div>
         <div class="form-group">
 	    	<label for="repeat">Passwort wiederholen:</label>
-	    	<input type="password" id="pw2"  class="form-control" id="pwd" required>
+	    	<input name="repeat" id="pw2"  class="form-control" id="pwd" required>
 	  	</div>
 	    <input type="submit" class="btn btn-success" value="Registrieren">
 	   </form>
