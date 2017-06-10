@@ -1,14 +1,16 @@
 <html>
 	<?php
         try {
-            echo "<p id='p1' style='display: none;'>" . $_GET['username'] . "</p>";
-            echo "<p id='p2' style='display: none;'>" . $_GET['name'] . "</p>";
-            echo "<p id='p3' style='display: none;'>" . $_GET['surname'] . "</p>";
-            echo "<p id='p4' style='display: none;'>" . $_GET['birthday'] . "</p>";
-            echo "<p id='p5' style='display: none;'>" . $_GET['phone'] . "</p>";
-            echo "<p id='p6' style='display: none;'>" . $_GET['email'] . "</p>";
-        } catch(Exception ex) {
-            
+            if(isset($_GET['username']) && isset($_GET['name']) && isset($_GET['surname']) && isset($_GET['birthday']) && isset($_GET['phone']) && isset($_GET['email'])) {
+                echo "<p id='p1' style='display: none;'>" . $_GET['username'] . "</p>";
+                echo "<p id='p2' style='display: none;'>" . $_GET['name'] . "</p>";
+                echo "<p id='p3' style='display: none;'>" . $_GET['surname'] . "</p>";
+                echo "<p id='p4' style='display: none;'>" . $_GET['birthday'] . "</p>";
+                echo "<p id='p5' style='display: none;'>" . $_GET['phone'] . "</p>";
+                echo "<p id='p6' style='display: none;'>" . $_GET['email'] . "</p>";    
+            }
+        } catch(Exception $ex) {
+               
         }
     ?>
 	<head>
@@ -30,15 +32,19 @@
 	
 	<body onload="func()">
         
-    <script>
+    <script language="javascript" type="text/javascript">
+        <!--
         function func() {
-            document.getElementById('username') = document.getElementById('p1')
-            document.getElementById('name') = document.getElementById('p2')
-            document.getElementById('surname') = document.getElementById('p3')
-            document.getElementById('birthday') = document.getElementById('p4')
-            document.getElementById('phone') = document.getElementById('p5')
-            document.getElementById('email') = document.getElementById('p6')
+            alert(document.getElementById('p1').innerHTML);
+            
+            document.getElementById('username').value = document.getElementById('p1').innerHTML;
+            document.getElementById('name').value = document.getElementById('p2').innerHTML;
+            document.getElementById('surname').value = document.getElementById('p3').innerHTML;
+            document.getElementById('birthday').value = document.getElementById('p4').innerHTML;
+            document.getElementById('phone').value = document.getElementById('p5').innerHTML;
+            document.getElementById('email').value = document.getElementById('p6').innerHTML;
         }
+        -->
     </script>
         
 	<div class="container">
