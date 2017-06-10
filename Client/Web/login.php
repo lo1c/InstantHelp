@@ -12,12 +12,27 @@
 	</head>
 	
 	<body>
-	<div class="container">	
-		<div class="page-header">	
+        
+	<div class="container">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">WebSiteName</a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">Page 1</a></li>
+              <li><a href="#">Page 2</a></li>
+              <li><a href="#">Page 3</a></li>
+            </ul>
+          </div>
+        </nav>
+                <div class="page-header">	
 			<h2>Login</h2>
 		</div>
+		<div class="col-md-6">
 		<form>
-	  	  <div class="form-group">
+	  	  <div class=" form-group">
 	    	  <label for="email">Email:</label>
 	    	  <input type="email" class="form-control" id="email">
 	  	</div>
@@ -25,8 +40,9 @@
 	    	<label for="pwd">Passwort:</label>
 	    	<input type="password" class="form-control" id="pwd">
 	  	</div>
-	  <button type="submit" class="btn btn-success">Einloggen</button>
-	</form>	
+	    <button type="submit" class="btn btn-success">Einloggen</button>
+	   </form>
+	</div>	
 	</div>
 	</body>
 		
