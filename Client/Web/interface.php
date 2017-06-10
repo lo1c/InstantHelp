@@ -1,4 +1,13 @@
 <?php
+	echo $_POST['username'];
+	echo $_POST['password'];
+	echo $_POST['repeat'];
+	echo $_POST['name'];
+	echo $_POST['surname'];
+	echo $_POST['phone'];
+	echo $_POST['email'];
+	echo $_POST['birthday'];
+
 	if(isset($_POST['username']) && isset($_POST['password']) && isset($_POST['repeat']) && isset($_POST['name']) && isset($_POST['surname']) && isset($_POST['phone']) && isset($_POST['email']) && isset($_POST['birthday'])) {
 		try {	
 			$content = $_POST['username'] . "#" . $_POST['password'] . "#" . $_POST['name'] . "#" . $_POST['surname'] . "#" . $_POST['phone'] . "#" . $_POST['email'] . "#" . $_POST['birthday'];
