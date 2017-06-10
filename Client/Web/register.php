@@ -50,19 +50,31 @@
 	    	<label for="pwd">Nachname:</label>
 	    	<input type="password" class="form-control" id="pwd">
 	  	</div>
-            <div class="form-group">
+        <div class="form-group">
+	    	<label for="pwd">Nickname:</label>
+	    	<input type="password" class="form-control" id="pwd">
+	  	</div>
+        <div class="form-group">
 	    	<label for="pwd">Email:</label>
 	    	<input type="password" class="form-control" id="pwd">
 	  	</div>
-            <div class="form-group">
+        <div class="form-group">
 	    	<label for="pwd">Handynummer:</label>
 	    	<input type="password" class="form-control" id="pwd">
 	  	</div>
-            <div class="form-group">
-	    	<label for="pwd">:</label>
-	    	<input type="password" class="form-control" id="pwd">
+        <div class="form-group">
+	    	<label for="pwd">Geburtsdatum:</label>
+	    	<input type="password" placeholder="DD/MM/YYYY" class="form-control" id="pwd">
 	  	</div>
-	    <button type="submit" class="btn btn-success">Einloggen</button>
+        <div class="form-group">
+	    	<label for="pwd">Passwort:</label>
+	    	<input type="password"  class="form-control" id="pwd">
+	  	</div>
+        <div class="form-group">
+	    	<label for="pwd">Passwort wiederholen:</label>
+	    	<input type="password"  class="form-control" id="pwd">
+	  	</div>
+	    <button type="submit" class="btn btn-success">Registrieren</button>
 	   </form>
 	</div>	
 	</div>
