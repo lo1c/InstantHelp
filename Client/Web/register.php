@@ -1,12 +1,12 @@
 <html>
 	<?php
         try {
-            echo "<p id='p1' style='display: none;'>" . $_GET['username'] . "</p>"
-            echo "<p id='p2' style='display: none;'>" . $_GET['name'] . "</p>"
-            echo "<p id='p3' style='display: none;'>" . $_GET['surname'] . "</p>"
-            echo "<p id='p4' style='display: none;'>" . $_GET['birthday'] . "</p>"
-            echo "<p id='p5' style='display: none;'>" . $_GET['phone'] . "</p>"
-            echo "<p id='p6' style='display: none;'>" . $_GET['email'] . "</p>"
+            echo "<p id='p1' style='display: none;'>" . $_GET['username'] . "</p>";
+            echo "<p id='p2' style='display: none;'>" . $_GET['name'] . "</p>";
+            echo "<p id='p3' style='display: none;'>" . $_GET['surname'] . "</p>";
+            echo "<p id='p4' style='display: none;'>" . $_GET['birthday'] . "</p>";
+            echo "<p id='p5' style='display: none;'>" . $_GET['phone'] . "</p>";
+            echo "<p id='p6' style='display: none;'>" . $_GET['email'] . "</p>";
         } catch(Exception ex) {
             
         }
