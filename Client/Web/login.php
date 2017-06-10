@@ -41,14 +41,14 @@
 			<h2>Login</h2>
 		</div>
 		<div class="col-md-6">
-		<form>
+		<form method="post" action="checker.php">
 	  	  <div class=" form-group">
-	    	  <label for="email">Email:</label>
-	    	  <input type="email" class="form-control" id="email">
+	    	  <label for="email">Username:</label>
+	    	  <input type="text" class="form-control" name="username">
 	  	</div>
 	  	<div class="form-group">
 	    	<label for="pwd">Passwort:</label>
-	    	<input type="password" class="form-control" id="pwd">
+	    	<input type="password" class="form-control" name="password">
 	  	</div>
 	    <button type="submit" class="btn btn-default">Einloggen</button>
 	   </form>
