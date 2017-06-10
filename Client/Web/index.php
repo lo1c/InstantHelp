@@ -1,10 +1,9 @@
 <html>
 	
-	<head>
-        <link rel="stylesheet" href="src/css/style.css">
-        
-		<title>Instant.Help</title>
+	<head>		
+        <title>Instant.Help</title>
         <!-- Latest compiled and minified CSS -->
+        <link ref="stylesheet" href="src/css/style.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 		<!-- Optional theme -->
@@ -39,17 +38,15 @@
             </ul>
           </div>
         </nav>
-        <div class="page-header">	
-			
-            <h2>Herzlich Wilkommen</h2>
+        <div class="col-md-4">	
         </div>
-        <div class="mainpicdiv">
-            <img class="mainpic" src="src/graphics/favicon.png" alt="" >
-            <br>
-            <br>
-            <text>Probier es jetzt noch aus! Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!</text>
-            <br>
-            <button type="submit" class="btn btn-success" href="register.php">Jetzt verwenden</button>
+        <div class="col-md-4">
+            <div class="mainpicdiv col-md-12">
+                <img class="mainpic" src="src/graphics/">
+            </div>
+            <br><br><br><br><text class="text-center"><a class="btn btn-success btn-block">Los geht's</a></text>
+        </div>
+        <div class="col-md-4">	
         </div>
 	</div>
 	</body>

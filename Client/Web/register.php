@@ -75,11 +75,10 @@
 	        <input name="name" type="text" class="form-control" id="name" required>
 	  	</div>
 	  	<div class="form-group">
-	    	<label name="surname">Nachname:</label>
-	    	<input type="text" class="form-control" id="surname" required>
+	    	<label>Nachname:</label>
+	    	<input name="surname" type="text" class="form-control" id="surname" required>
 	  	</div>
         <div class="form-group">
-	    	<label name="username">Nickname:</label>
 	    	<label>Nickname:</label>
 	    	<input name="username" type="text" class="form-control" id="username" required>
 	  	</div>
