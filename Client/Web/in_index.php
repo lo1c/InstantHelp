@@ -28,7 +28,6 @@
             <ul class="nav navbar-nav">
               <li><a href="index.php">Home</a></li>
               <li><a href="concept.php">Konzept</a></li>
-              <li><a href="#">Test</a></li>
               <li class="active"><a href="about.php">Über Uns</a></li>
             </ul>
               <ul class="nav navbar-nav navbar-right">
