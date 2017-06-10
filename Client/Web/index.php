@@ -11,29 +11,21 @@ Kurze Erläterung der Änderung:
 <html>
 	<head>
 		<title>InstantHelp</title>
-		<link type="text/css" rel="stylesheet" href="src/css/reset.css">
-		<link type="text/css" rel="stylesheet" href="src/css/style.css">
-		<link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<!--UTF-8 Charset -->
 		<meta charset="utf-8">
 	</head>
 	<body>
-		<div id="page">
-			<div id="header">
-                <div class="icons">
-				    <h1 class="title">SKAP</h1>
-				    <h6 class="suptitle">SmartKey Administration Panel</h6>
-                </div>
-            </div>
-            
-            <div id="all">
-                <div class="nav">
-                    <div class="navbar" >
-                        <button class="menue">Lol</button>
-                    </div>  
-                
-                
-                </div>
-            </div>
-        </div>
+		<div class="container">
+			<div class="page-header">
+				<h1>Login</h1>
+				
     </body>
 </html>
