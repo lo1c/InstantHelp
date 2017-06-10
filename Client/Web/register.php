@@ -26,22 +26,34 @@
               <li><a href="#">Über Uns</a></li>
             </ul>
               <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#"><span class="glyphicon glyphicon-user"></span> Registrieren</a></li>
-                <li class="active"><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li class="active"><a href="#"><span class="glyphicon glyphicon-user"></span> Registrieren</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
             </ul>
           </div>
         </nav>
-                <div class="page-header">	
-			<h2>Login</h2>
+        <div class="page-header">	
+			<h2>Registrierung</h2>
 		</div>
 		<div class="col-md-6">
 		<form>
 	  	  <div class=" form-group">
-	    	  <label for="email">Email:</label>
+	    	  <label for="email">Vorname:</label>
 	    	  <input type="email" class="form-control" id="email">
 	  	</div>
 	  	<div class="form-group">
-	    	<label for="pwd">Passwort:</label>
+	    	<label for="pwd">Nachname:</label>
+	    	<input type="password" class="form-control" id="pwd">
+	  	</div>
+            <div class="form-group">
+	    	<label for="pwd">Email:</label>
+	    	<input type="password" class="form-control" id="pwd">
+	  	</div>
+            <div class="form-group">
+	    	<label for="pwd">Handynummer:</label>
+	    	<input type="password" class="form-control" id="pwd">
+	  	</div>
+            <div class="form-group">
+	    	<label for="pwd">:</label>
 	    	<input type="password" class="form-control" id="pwd">
 	  	</div>
 	    <button type="submit" class="btn btn-success">Einloggen</button>
