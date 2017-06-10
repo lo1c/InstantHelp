@@ -11,6 +11,7 @@ Kurze Erläterung der Änderung:
 <html>
 	<head>
 		<title>InstantHelp</title>
+<<<<<<< HEAD
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -27,5 +28,29 @@ Kurze Erläterung der Änderung:
 			<div class="page-header">
 				<h1>Login</h1>
 				
+=======
+		<link type="text/css" rel="stylesheet" href="src/css/reset.css">
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div id="page">
+			<div id="header">
+                <div class="icons">
+				    <h1 class="title">InstantHelp</h1>
+				    <h6 class="suptitle">Nie mehr falsche Antworten!</h6>
+                </div>
+            </div>
+            
+            <div id="all">
+                <div class="nav">
+                    <div class="navbar" >
+                        <button class="menue">Lol</button>
+                    </div>  
+                
+                
+                </div>
+            </div>
+        </div>
+>>>>>>> 32a7081e306abeaee40ba728a2b20575e4923a52
     </body>
 </html>
