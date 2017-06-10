@@ -11,7 +11,6 @@ Kurze Erläterung der Änderung:
 <html>
 	<head>
 		<title>InstantHelp</title>
-		<link type="text/css" rel="stylesheet" href="src/css/reset.css">
 		<meta charset="utf-8">
 	</head>
 	<body>
