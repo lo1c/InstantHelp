@@ -45,9 +45,11 @@
         </div>
         <div class="mainpicdiv">
             <img class="mainpic" src="src/graphics/favicon.png" alt="" >
-            
             <br>
-            <button type="submit" class="btn btn-success">Jetzt verwenden</button>
+            <br>
+            <text>Probier es jetzt noch aus! Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!Probier es jetzt noch aus!</text>
+            <br>
+            <button type="submit" class="btn btn-success" href="register.php">Jetzt verwenden</button>
         </div>
 	</div>
 	</body>
