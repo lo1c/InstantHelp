@@ -43,7 +43,7 @@
 			<h2>Frage stellen</h2>
 		</div>
 		<div class="col-md-6">
-		<form method="get" action="find.php">
+		<form method="get" action="#">
             <div class="form-group">
 	    	<label for="Beschreibung">Beschreibung</label>
             <textarea name="Beschreibung" rows="5" class="form-control" id="Beschreibung"></textarea>
@@ -103,11 +103,32 @@
         	<div class="form-group">
 	    	<label for="Uhrzeit">Uhrzeit</label>
 	    	<input name="Uhrzeit" type="text" class="form-control" id="Uhrzeit" placeholder="z.B. 13:00h">
+            <input name="cur_pos" type="hidden" id="cur_pos">
 	  	</div>
-	    <button type="submit" class="btn btn-success">Frage stellen</button>
+	    <button type="submit" onclick="absenden();" class="btn btn-success">Frage stellen</button>
 	   </form>
 	</div>	
 	</div>
-	</body>
-		
+    <script>
+    var x = document.getElementById("cur_pos");
+
+    function getLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        } else { 
+            x.innerHTML = "Geolocation is not supported by this browser.";
+        }
+    }
+
+    function showPosition(position) {
+        x.value = position.coords.latitude + ";" + position.coords.longitude;
+    }
+    function absenden() {
+        var Standortspeichern = getLocation()
+        
+        }
+    </script>
+    </body>	
 </html>
+
+
