@@ -1,6 +1,8 @@
 <html>
 	
 	<head>
+        <link rel="stylesheet" href="src/css/style.css">
+        
 		<title>Instant.Help</title>
         <!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -40,6 +42,10 @@
         <div class="page-header">	
 			
             <h2>Herzlich Wilkommen</h2>
+        </div>
+        <div>
+            <img class="mainpic" src="src/graphics/favicon.png" alt="">
+            <button type="submit" class="btn btn-success">Einloggen</button>
         </div>
 	</div>
 	</body>
