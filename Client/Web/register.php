@@ -96,11 +96,11 @@
         </div>
         <div class="form-group">
 	    	<label>Passwort:</label>
-	    	<input name="password" type="password" id="pw1"  class="form-control" id="pwd" required>
+	    	<input name="password" type="password" id="pw1"  class="form-control" required>
 	  	</div>
         <div class="form-group">
-	    	<label for="repeat">Passwort wiederholen:</label>
-	    	<input name="repeat" id="pw2"  class="form-control" id="pwd" required>
+	    	<label>Passwort wiederholen:</label>
+	    	<input name="repeat" id="pw2"  class="form-control" required>
 	  	</div>
 	    <input type="submit" class="btn btn-success" value="Registrieren">
 	   </form>
