@@ -41,43 +41,54 @@
 			<h2>Registrierung</h2>
 		</div>
 		<div class="col-md-6">
-		<form method="get" action>
+		<form method="post" action="interface.php" onSubmit="return checkPw(this)">
 	  	<div class=" form-group">
-	        <label for="prename">Vorname:</label>
-	        <input type="email" class="form-control" id="email">
+	        <label name="name">Vorname:</label>
+	        <input type="email" class="form-control" id="email" required>
 	  	</div>
 	  	<div class="form-group">
-	    	<label for="name">Nachname:</label>
-	    	<input type="text" class="form-control" id="pwd">
+	    	<label name="surname">Nachname:</label>
+	    	<input type="text" class="form-control" id="pwd" required>
 	  	</div>
         <div class="form-group">
-	    	<label for="nicknam">Nickname:</label>
-	    	<input type="text" class="form-control" id="pwd">
+	    	<label name="username">Nickname:</label>
+	    	<input type="text" class="form-control" id="pwd" required>
 	  	</div>
         <div class="form-group">
-	    	<label for="email">Email:</label>
-	    	<input type="email" class="form-control" id="pwd">
+	    	<label name="email">Email:</label>
+	    	<input type="email" class="form-control" id="pwd" required>
 	  	</div>
         <div class="form-group">
-	    	<label for="phone">Handynummer:</label>
-	    	<input type="text" class="form-control" id="pwd">
+	    	<label name="phone">Handynummer:</label>
+	    	<input type="text" class="form-control" id="pwd" required>
 	  	</div>
         <div class="form-group">
-	    	<label for="bd">Geburtsdatum:</label>
-	    	<input type="date" placeholder="DD/MM/YYYY" class="form-control" id="pwd">
+	    	<label name="birthday">Geburtsdatum:</label>
+	    	<input type="date" placeholder="DD/MM/YYYY" class="form-control" id="pwd" required>
+        <div class="form-group">
+	    	<label name="password">Passwort:</label>
+	    	<input type="password" id="pw1"  class="form-control" id="pwd" required>
 	  	</div>
         <div class="form-group">
-	    	<label for="pwd">Passwort:</label>
-	    	<input type="password"  class="form-control" id="pwd">
+	    	<label for="repeat">Passwort wiederholen:</label>
+	    	<input type="password" id="pw2"  class="form-control" id="pwd" required>
 	  	</div>
-        <div class="form-group">
-	    	<label for="pwd">Passwort wiederholen:</label>
-	    	<input type="password"  class="form-control" id="pwd">
-	  	</div>
-	    <button type="submit" class="btn btn-success">Registrieren</button>
+	    <input type="submit" class="btn btn-success" value="Registrieren">
 	   </form>
 	</div>	
 	</div>
 	</body>
-		
+	
+    <!-- JS-Script zum vergleichen der Passwörter-->
+    <script language="javascript" type="text/javascript">
+     <!--
+        function checkPw(){ 
+        Eingabepw01 = document.getElementById("pw1").value;
+        Eingabepw02 = document.getElementById("pw2").value;
+        
+        if (Eingabepw01 != Eingabepw02)
+        alert ("Passwörter stimmen nicht überein!");
+        }
+    -->   
+    </script>
 </html>
