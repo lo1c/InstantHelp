@@ -8,7 +8,10 @@
 			fclose ($handle);
 		
 			header('Location: /done.php?username=' . $_POST['username']);
+		
+			echo "ALLES KLAR!";
 		} catch (Exception $ex) {
+			echo $ex->getMessage();
 			header('Location: /register.php?username=' . $_POST['username'] . "&name=" . $_POST['name'] . "&surname=" . $_POST['surname'] . "&birthday=" . $_POST['birthday'] . "&phone=" . $_POST['phone'] . "&email=" . $_POST['email']);
 		}
 	}
