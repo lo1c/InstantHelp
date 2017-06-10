@@ -41,30 +41,30 @@
 			<h2>Registrierung</h2>
 		</div>
 		<div class="col-md-6">
-		<form>
-	  	  <div class=" form-group">
-	    	  <label for="email">Vorname:</label>
-	    	  <input type="email" class="form-control" id="email">
+		<form method="get" action>
+	  	<div class=" form-group">
+	        <label for="prename">Vorname:</label>
+	        <input type="email" class="form-control" id="email">
 	  	</div>
 	  	<div class="form-group">
-	    	<label for="pwd">Nachname:</label>
-	    	<input type="password" class="form-control" id="pwd">
+	    	<label for="name">Nachname:</label>
+	    	<input type="text" class="form-control" id="pwd">
 	  	</div>
         <div class="form-group">
-	    	<label for="pwd">Nickname:</label>
-	    	<input type="password" class="form-control" id="pwd">
+	    	<label for="nicknam">Nickname:</label>
+	    	<input type="text" class="form-control" id="pwd">
 	  	</div>
         <div class="form-group">
-	    	<label for="pwd">Email:</label>
-	    	<input type="password" class="form-control" id="pwd">
+	    	<label for="email">Email:</label>
+	    	<input type="email" class="form-control" id="pwd">
 	  	</div>
         <div class="form-group">
-	    	<label for="pwd">Handynummer:</label>
-	    	<input type="password" class="form-control" id="pwd">
+	    	<label for="phone">Handynummer:</label>
+	    	<input type="text" class="form-control" id="pwd">
 	  	</div>
         <div class="form-group">
-	    	<label for="pwd">Geburtsdatum:</label>
-	    	<input type="password" placeholder="DD/MM/YYYY" class="form-control" id="pwd">
+	    	<label for="bd">Geburtsdatum:</label>
+	    	<input type="date" placeholder="DD/MM/YYYY" class="form-control" id="pwd">
 	  	</div>
         <div class="form-group">
 	    	<label for="pwd">Passwort:</label>
