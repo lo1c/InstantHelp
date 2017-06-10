@@ -43,9 +43,11 @@
 			
             <h2>Herzlich Wilkommen</h2>
         </div>
-        <div>
-            <img class="mainpic" src="src/graphics/favicon.png" alt="">
-            <button type="submit" class="btn btn-success">Einloggen</button>
+        <div class="mainpicdiv">
+            <img class="mainpic" src="src/graphics/favicon.png" alt="" >
+            
+            <br>
+            <button type="submit" class="btn btn-success">Jetzt verwenden</button>
         </div>
 	</div>
 	</body>
