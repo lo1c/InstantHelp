@@ -93,6 +93,7 @@
         <div class="form-group">
 	    	<label>Geburtsdatum:</label>
 	    	<input name="birthday" type="date" placeholder="DD/MM/YYYY" class="form-control" id="date" required>
+        </div>
         <div class="form-group">
 	    	<label>Passwort:</label>
 	    	<input name="password" type="password" id="pw1"  class="form-control" id="pwd" required>
