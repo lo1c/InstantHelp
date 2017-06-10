@@ -38,16 +38,10 @@
             </ul>
           </div>
         </nav>
-        <div class="col-md-4">	
+        <div class="">	
+             <img class="img-responsive center-block" src="src/graphics/favicon.png" width="300x300">
         </div>
-        <div class="col-md-4">
-            <div class="mainpicdiv col-md-12">
-                <img class="mainpic" src="src/graphics/">
-            </div>
-            <br><br><br><br><text class="text-center"><a class="btn btn-success btn-block">Los geht's</a></text>
-        </div>
-        <div class="col-md-4">	
-        </div>
-	</div>
+         </div>
+	
 	</body>
 </html>
