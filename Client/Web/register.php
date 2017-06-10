@@ -26,8 +26,8 @@
               <li><a href="about.php">Über Uns</a></li>
             </ul>
               <ul class="nav navbar-nav navbar-right">
-                  <li><a href="register.php"><span class="glyphicon glyphicon-user"></span> Registrieren</a></li>
-                <li class="active"><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                <li class="active"><a href="register.php"><span class="glyphicon glyphicon-user"></span> Registrieren</a></li>
+                <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
             </ul>
           </div>
         </nav>
