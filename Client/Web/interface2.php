@@ -6,8 +6,7 @@
 			$handle = fopen("users/" . $_POST['username'] . ".txt", w);
 			fwrite ($handle, $content);
 			fclose ($handle);
-		}
-			//initialize connection to back-end	and save data
+		
 			header('Location: /done.php?username=' . $_POST['username']);
 		} catch (Exception ex) {
 			header('Location: /register.php?username=' . $_POST['username'] . "&name=" . $_POST['name'] . "&surname=" . $_POST['surname'] . "&birthday=" . $_POST['birthday'] . "&phone=" . $_POST['phone'] . "&email=" . $_POST['email']);
