@@ -12,16 +12,14 @@ Kurze Erläterung der Änderung:
 	<head>
 		<title>InstantHelp</title>
 		<link type="text/css" rel="stylesheet" href="src/css/reset.css">
-		<link type="text/css" rel="stylesheet" href="src/css/style.css">
-		<link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
 		<meta charset="utf-8">
 	</head>
 	<body>
 		<div id="page">
 			<div id="header">
                 <div class="icons">
-				    <h1 class="title">SKAP</h1>
-				    <h6 class="suptitle">SmartKey Administration Panel</h6>
+				    <h1 class="title">InstantHelp</h1>
+				    <h6 class="suptitle">Nie mehr falsche Antworten!</h6>
                 </div>
             </div>
             
