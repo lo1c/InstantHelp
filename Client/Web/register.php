@@ -1,5 +1,16 @@
 <html>
-	
+	<?php
+        try {
+            echo "<p id='p1' style='display: none;'>" . $_GET['username'] . "</p>"
+            echo "<p id='p2' style='display: none;'>" . $_GET['name'] . "</p>"
+            echo "<p id='p3' style='display: none;'>" . $_GET['surname'] . "</p>"
+            echo "<p id='p4' style='display: none;'>" . $_GET['birthday'] . "</p>"
+            echo "<p id='p5' style='display: none;'>" . $_GET['phone'] . "</p>"
+            echo "<p id='p6' style='display: none;'>" . $_GET['email'] . "</p>"
+        } catch(Exception ex) {
+            
+        }
+    ?>
 	<head>
 		<title>Instant.Help</title>
         <!-- Latest compiled and minified CSS -->
@@ -17,7 +28,18 @@
         <link rel="shortcut icon" href="src/graphics/favicon.ico">
 	</head>
 	
-	<body>
+	<body onload="func()">
+        
+    <script>
+        function func() {
+            document.getElementById('username') = document.getElementById('p1')
+            document.getElementById('name') = document.getElementById('p2')
+            document.getElementById('surname') = document.getElementById('p3')
+            document.getElementById('birthday') = document.getElementById('p4')
+            document.getElementById('phone') = document.getElementById('p5')
+            document.getElementById('email') = document.getElementById('p6')
+        }
+    </script>
         
 	<div class="container">
         <nav class="navbar navbar-default">
@@ -44,27 +66,27 @@
 		<form method="post" action="interface.php" onSubmit="return checkPw(this)">
 	  	<div class=" form-group">
 	        <label name="name">Vorname:</label>
-	        <input type="email" class="form-control" id="email" required>
+	        <input type="text" class="form-control" id="name" required>
 	  	</div>
 	  	<div class="form-group">
 	    	<label name="surname">Nachname:</label>
-	    	<input type="text" class="form-control" id="pwd" required>
+	    	<input type="text" class="form-control" id="surname" required>
 	  	</div>
         <div class="form-group">
 	    	<label name="username">Nickname:</label>
-	    	<input type="text" class="form-control" id="pwd" required>
+	    	<input type="text" class="form-control" id="username" required>
 	  	</div>
         <div class="form-group">
 	    	<label name="email">Email:</label>
-	    	<input type="email" class="form-control" id="pwd" required>
+	    	<input type="email" class="form-control" id="email" required>
 	  	</div>
         <div class="form-group">
 	    	<label name="phone">Handynummer:</label>
-	    	<input type="text" class="form-control" id="pwd" required>
+	    	<input type="phone" class="form-control" id="phone" required>
 	  	</div>
         <div class="form-group">
 	    	<label name="birthday">Geburtsdatum:</label>
-	    	<input type="date" placeholder="DD/MM/YYYY" class="form-control" id="pwd" required>
+	    	<input type="date" placeholder="DD/MM/YYYY" class="form-control" id="date" required>
         <div class="form-group">
 	    	<label name="password">Passwort:</label>
 	    	<input type="password" id="pw1"  class="form-control" id="pwd" required>
