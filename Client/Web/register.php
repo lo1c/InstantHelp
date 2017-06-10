@@ -30,7 +30,7 @@
         <link rel="shortcut icon" href="src/graphics/favicon.ico">
 	</head>
 	
-	<body onload="func()">
+	<body onload="func()" background="https://previews.123rf.com/images/torsakarin/torsakarin1405/torsakarin140500037/28107489-wei-moderne-Ziegel-Mauer-Hintergrund-und-Textur-Lizenzfreie-Bilder.jpg">
         
     <script language="javascript" type="text/javascript">
         <!--
@@ -71,8 +71,8 @@
 		<div class="col-md-6">
 		<form method="post" action="interface.php" onSubmit="return checkPw(this)">
 	  	<div class=" form-group">
-	        <label name="name">Vorname:</label>
-	        <input type="text" class="form-control" id="name" required>
+	        <label>Vorname:</label>
+	        <input name="name" type="text" class="form-control" id="name" required>
 	  	</div>
 	  	<div class="form-group">
 	    	<label name="surname">Nachname:</label>
@@ -80,22 +80,23 @@
 	  	</div>
         <div class="form-group">
 	    	<label name="username">Nickname:</label>
-	    	<input type="text" class="form-control" id="username" required>
+	    	<label>Nickname:</label>
+	    	<input name="username" type="text" class="form-control" id="username" required>
 	  	</div>
         <div class="form-group">
-	    	<label name="email">Email:</label>
-	    	<input type="email" class="form-control" id="email" required>
+	    	<label>Email:</label>
+	    	<input name="email" type="email" class="form-control" id="email" required>
 	  	</div>
         <div class="form-group">
-	    	<label name="phone">Handynummer:</label>
-	    	<input type="phone" class="form-control" id="phone" required>
+	    	<label>Handynummer:</label>
+	    	<input name="phone" type="phone" class="form-control" id="phone" required>
 	  	</div>
         <div class="form-group">
-	    	<label name="birthday">Geburtsdatum:</label>
-	    	<input type="date" placeholder="DD/MM/YYYY" class="form-control" id="date" required>
+	    	<label>Geburtsdatum:</label>
+	    	<input name="birthday" type="date" placeholder="DD/MM/YYYY" class="form-control" id="date" required>
         <div class="form-group">
-	    	<label name="password">Passwort:</label>
-	    	<input type="password" id="pw1"  class="form-control" id="pwd" required>
+	    	<label>Passwort:</label>
+	    	<input name="password" type="password" id="pw1"  class="form-control" id="pwd" required>
 	  	</div>
         <div class="form-group">
 	    	<label for="repeat">Passwort wiederholen:</label>
