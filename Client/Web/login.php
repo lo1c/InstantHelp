@@ -1,5 +1,9 @@
 <html>
-	
+	<?php
+        if(isset($_GET['username'])) {
+            echo "<p id='p1' style='display: none;'>" . $_GET['username'] . "</p>";
+        }
+    ?>  
 	<head>
 		<title>Instant.Help</title>
         <!-- Latest compiled and minified CSS -->
@@ -17,8 +21,15 @@
         <link rel="shortcut icon" href="src/graphics/favicon.ico">
 	</head>
 	
-	<body>
+	<body onload="func()">
         
+    <script language="javascript" type="text/javascript">
+    <!--
+    function func() {
+        document.getElementById('username').value = document.getElementById('p1').innerHTML;   
+    }
+    -->
+    </script>
 	<div class="container">
         <nav class="navbar navbar-default">
           <div class="container-fluid">
@@ -28,6 +39,7 @@
             <ul class="nav navbar-nav">
               <li><a href="index.php">Home</a></li>
               <li><a href="concept.php">Konzept</a></li>
+              <li><a href="#">Test</a></li>
               <li><a href="about.php">Über Uns</a></li>
             </ul>
               <ul class="nav navbar-nav navbar-right">
@@ -43,7 +55,7 @@
 		<form method="post" action="checker.php">
 	  	  <div class=" form-group">
 	    	  <label for="email">Username:</label>
-	    	  <input type="text" class="form-control" name="username">
+	    	  <input id="username" type="text" class="form-control" name="username">
 	  	</div>
 	  	<div class="form-group">
 	    	<label for="pwd">Passwort:</label>

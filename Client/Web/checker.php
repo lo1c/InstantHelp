@@ -1,13 +1,17 @@
 <?php
 	try {
-		$file = fread("users/" . $_POST['username']);
+        $name = "users/" . $_POST['username'];
+        $of = fopen($name, "r");
+		$file = fread($of, filesize($name));
+        fclose($of);
+        
 		$pwd = explode("#", $file);
 		if($pwd[1] == $_POST['password']) {
-			header("Location: /in_index.php?username=" . $_POST['username']);
+			header("Location: /instanthelp/Client/Web/in_index.php?username=" . $_POST['username']);
 		} else {
-			header("Location: /login.php?username=" . $_POST['username']);
+			header("Location: /instanthelp/Client/Web/login.php?username=" . $_POST['username']);
 		}
 	} catch(Exception $ex) {
-		header("Location: /login.php?username=" . $_POST['username']);
+		header("Location: /instanthelp/Client/Web/login.php?username=" . $_POST['username']);
 	}
 ?>

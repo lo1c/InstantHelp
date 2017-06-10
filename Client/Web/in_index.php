@@ -28,6 +28,7 @@
             <ul class="nav navbar-nav">
               <li><a href="index.php">Home</a></li>
               <li><a href="concept.php">Konzept</a></li>
+              <li><a href="#">Test</a></li>
               <li class="active"><a href="about.php">Über Uns</a></li>
             </ul>
               <ul class="nav navbar-nav navbar-right">
@@ -38,7 +39,7 @@
         </nav>
         <div class="container col-md-6">	
             <text class="text-center"><h2>Fragen</h2></text>
-                <a class="btn btn-success btn-block" href="search.html">Frage stellen</a>
+                <a class="btn btn-success btn-block" href="search.php">Frage stellen</a>
         </div>
         <div class="container col-md-6">
             <text class="text-center"><h2>Antworten</h2></text>
