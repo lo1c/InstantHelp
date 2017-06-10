@@ -1,4 +1,8 @@
 <?php
+	foreach ($_POST as $key => $value) {
+		echo "Field ".htmlspecialchars($key)." is ".htmlspecialchars($value)."<br>";
+	}
+	
 	echo $_POST['username'];
 	echo $_POST['password'];
 	echo $_POST['repeat'];
