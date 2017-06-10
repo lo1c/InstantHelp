@@ -2,6 +2,7 @@ asfsafafsf
 
 
 <?php
+<<<<<<< HEAD
     while(true) {
         
     }
@@ -10,12 +11,17 @@ asfsafafsf
     fwrite($handle, 'hi');
     fclose ($handle);
 
+=======
+>>>>>>> 6c3a555b1c475d84002b1dff9bebd639934d242f
 	if(isset($_POST['username']) && isset($_POST['password']) && isset($_POST['name']) && isset($_POST['surname']) && isset($_POST['phone']) && isset($_POST['email']) && isset($_POST['birthday'])) {
-        echo "!";
 		try {	
 			$content = $_POST['username'] . "#" . $_POST['password'] . "#" . $_POST['name'] . "#" . $_POST['surname'] . "#" . $_POST['phone'] . "#" . $_POST['email'] . "#" . $_POST['birthday'];
 		
+<<<<<<< HEAD
 			$handle = fopen("users/" . $_POST['username'], w);
+=======
+			$handle = fopen("users/" . $_POST['username'], "w");
+>>>>>>> 6c3a555b1c475d84002b1dff9bebd639934d242f
 			fwrite ($handle, $content);
 			fclose ($handle);
 		
