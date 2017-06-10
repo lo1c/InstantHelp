@@ -34,6 +34,10 @@ def update(collection, json):
 	collection.update(json)
 
 
+def find(collection, key):
+	return collection.find(key)
+
+
 '''
 	Parses the parameter given with the registration process into the help_provider database
 '''
@@ -91,12 +95,24 @@ def create_user():
 	
 	
 	
+@app.route('/user/<string:uid>/<string:action>', methods=['GET'])
+def route(uid, action):
+	if action == 'update':
+		jsonobj = create_json_object(request.args, 'key', 'value')
+		return json.dumps({'code': 'success', 'msg': '//', 'method': '/' + uid + '/' + action, 'result': update(user, jsonobj)})
+	elif action == 'get':
+		jsonobj = create_json_object(request.args, 'key')
+		return json.dumps({'code': 'success', 'msg': '//', 'method': '/' + uid + '/' + action, 'result': find(user, jsonobj['key'])})
+		
+	
+	return json.dumps({'code': 'error', 'msg': '//', 'method': '/' + uid + '/' + action})
+	
 	
 	
 	
 '''
 
-	URL: 	   http://<myip>:5000/updateposition
+	URL: 	   http://<myip>:5000/updateposition/<uid | e.g. 90c7f04e-f945-49cd-af30-de5a1946ca1f>/
 	METHOD:    POST
 	PARAMETER: {
 		uid:	 the users uid (e.g. '90c7f04e-f945-49cd-af30-de5a1946ca1f')
@@ -104,23 +120,29 @@ def create_user():
 	}
 
 '''
-@app.route('/updateposition', methods=['POST'])
-def update_location():
-	try:
-		jsonobj = create_json_object(request.args, 'cur_pos')
-		
-		
-		#SQL Injection
-		result = update(user, jsonobj)
-		
-		return json.dumps({'code': 'success', 'msg': '//', 'method': '/updateposition', 'result': result})
-	except KeyError as err:
-		return json.dumps({'code': 'error', 'msg': err.msg, 'method': '/updateposition'})
-	
-	
-	
-	
-	
+# @app.route('/updateposition/<string:uid>', methods=['POST'])
+# def update_location(uid):
+# 	try:
+# 		jsonobj = create_json_object(request.args, 'cur_pos')
+#   		
+# 		
+# 		result = update(user, jsonobj)
+# 		
+# 		return json.dumps({'code': 'success', 'msg': '//', 'method': '/updateposition', 'result': result})
+# 	except KeyError as err:
+# 		return json.dumps({'code': 'error', 'msg': err.msg, 'method': '/updateposition'})
+# 	
+# 	
+# 	
+# @app.route('/get', methods=['GET'])
+# def get():
+# 	try:
+# 		jsonobj = create_json_object(request.args, 'value')
+# 	except:
+# 		pass
+# 		
+# # 		result 
+# 	
 
 	
 	
@@ -128,4 +150,4 @@ def update_location():
 	Starts the flaskserver
 '''
 if __name__ == "__main__":
-	app.run()
+	app.run(host='0.0.0.0', port=4488)
