@@ -19,7 +19,8 @@
 
     <body>
         <div class="container">
-            <p>Bitte Email bestätigen!</p>
+            <h2>Danke für Deine Registrierung<small>Nur noch ein Schritt!</small></sm></h2>
+            <p>In den nächsten Minuten wirst Du eine Email erhalten.<br>Klicke in dieser einfach nur noch auf den Bestätigunslink und der Vorgang ist abgeschloßen!</p>
         </div>
     </body>
     
