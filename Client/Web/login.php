@@ -9,6 +9,11 @@
 
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <!--favicon-->
+        <link rel="apple-touch-icon-precomposed" sizes="180x180" href="src/graphics/favicon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="src/graphics/favicon.ico">
+        <link rel="shortcut icon" href="src/graphics/favicon.ico">
 	</head>
 	
 	<body>
