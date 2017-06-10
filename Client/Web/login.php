@@ -16,8 +16,17 @@
 		<div class="page-header">	
 			<h2>Login</h2>
 		</div>
-		
-		<div class>
+		<form>
+	  	  <div class="form-group">
+	    	  <label for="email">Email:</label>
+	    	  <input type="email" class="form-control" id="email">
+	  	</div>
+	  	<div class="form-group">
+	    	<label for="pwd">Passwort:</label>
+	    	<input type="password" class="form-control" id="pwd">
+	  	</div>
+	  <button type="submit" class="btn btn-success">Einloggen</button>
+	</form>	
 	</div>
 	</body>
 		
