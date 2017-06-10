@@ -37,10 +37,14 @@
             </ul>
           </div>
         </nav>
-        <div class="page-header">	
-			<h2>Über uns</h2>
+        <div class="container col-md-6">	
+            <text class="text-center"><h2>Fragen</h2></text>
+                <a class="btn btn-success btn-block" href="search.html">Frage stellen</a>
         </div>
-        InstantHelp ist die Nachhilfeorgansisation des digitalen Zeitalters: sicher und einfach in der Nutzerführung.InstantHelp ist mehr als eine webbasierte funktionale Vermittlungsplattform. Wir verfolgen den Ansatz einer Suchmaschine für Nachhilfe mit Community-Charakter und wollen dir dabei Helfen eine schnelle, analoge, Nachhilfe zu finden, damit du es, trotz wenig Zeit, noch schaffst eine gute Note in deiner nächsten Arbeit zu schreiben.<br><br>Bei InstantHelp können sich beide Patreien anhand von persönlichen Profilen bereits vor dem Treffen ein genaues Bild von einander machen. Stärken, Erfahrung, Alter und Wohnort können sie schon Voraus einsehen und so Probleme vermeiden. Wenn du dir Sorgen machst, dass Personen mit bösen Intentionen, wie z.B. Pedohile, unsere Plattform als Mittel zum Zweck nutzen hast du mehrere Möglichkeiten. Beispielsweise kannst du in deinem Suchfilter eingeben, dass du deine Anfrage nur an Nutzer mit einer hohen Anzahl an erledigten Aufträgen schicken willst. Natürlich können aber auch wir dir keine hundertprozentige Garantie dafür geben.<br><br>Bezahlt wird im Voraus, per PayPal oder Überwesiung, das Geld liegt aber solange auf unser Plattform, bis der Auftrag von beiden Seiten bestätigt wurde.Somit kannst du dir als Auftraggeber sicher sein, dass du dein Geld nicht verlierst.
+        <div class="container col-md-6">
+            <text class="text-center"><h2>Antworten</h2></text>
+        </div>
+        
 	</div>
 	</body>
 		
