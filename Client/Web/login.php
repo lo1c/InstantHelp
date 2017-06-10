@@ -50,7 +50,7 @@
 	    	<label for="pwd">Passwort:</label>
 	    	<input type="password" class="form-control" id="pwd">
 	  	</div>
-	    <button type="submit" class="btn btn-success">Einloggen</button>
+	    <button type="submit" class="btn btn-default">Einloggen</button>
 	   </form>
 	</div>	
 	</div>

@@ -40,6 +40,9 @@
         <div class="page-header">	
 			<h2>Unsere Idee</h2>
         </div>
+        <p>
+        
+        Stell dir vor es ist 20:00 Uhr und du schreibst morgen eine Arbeit, bisher hast du noch nicht gelernt und auch einiges nicht verstanden. Jetzt hast du verschiedene Möglichkeiten schnell Hilfe zu bekommen, am liebsten würdest du aber eine Person haben, die schnell zu dir kommt und dir deine Fragen zum Thema beantworten kann. Deine Freunde und Eltern haben keine Zeit bzw. können dir nicht helfen, weil sie es selber nicht verstehen. Deshalb benutzt du unsere App, du gibst deine Frage(n) ganz bequem von zu Hause ein, mit einigen zusätzlichen Kriterien, die ein Auftragnehmer erfüllen sollte (Erfahrung, Verfügbarkeit, Umkreis, Alter, etc.). Unsere App sendet dann eine Push-Nachricht auf das Handy von allen, die deine festgelegten Kriterien erfüllen. Im Optimalfall wirst du so in wenigen Minuten, gegen eine geringe Bezahlung, eine Person finden, die zu dir kommt und dich vor einer schlechten Note bewahrt.</p>
 	</div>
 	</body>
 		

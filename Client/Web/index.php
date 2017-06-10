@@ -41,6 +41,15 @@
         <div class="">	
              <img class="img-responsive center-block" src="src/graphics/favicon.png" width="300x300">
         </div>
+        <br>
+        <div class="col-md-12">
+            <p class="text-center">Morgen eine Arbeit?<br>Die Hausaufgaben sind zu schwer?<br>Starte jetzt mit Instant Help</p>
+        </div>    
+        <div class="col-md-5"></div>
+        <button class="btn btn-default btn-lg center-block col-md-2">Jetzt Starten!</button>
+        <div class="col-md-5"></div>
+        </div>
+        
          </div>
 	
 	</body>

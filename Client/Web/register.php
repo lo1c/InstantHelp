@@ -30,7 +30,7 @@
         <link rel="shortcut icon" href="src/graphics/favicon.ico">
 	</head>
 	
-	<body onload="func()" background="https://previews.123rf.com/images/torsakarin/torsakarin1405/torsakarin140500037/28107489-wei-moderne-Ziegel-Mauer-Hintergrund-und-Textur-Lizenzfreie-Bilder.jpg">
+	<body onload="func()">
         
     <script language="javascript" type="text/javascript">
         <!--
@@ -102,7 +102,7 @@
 	    	<label>Passwort wiederholen:</label>
 	    	<input name="repeat" id="pw2"  class="form-control" required>
 	  	</div>
-	    <input type="submit" class="btn btn-success" value="Registrieren">
+	    <input type="submit" class="btn btn-default" value="Registrieren">
 	   </form>
 	</div>	
 	</div>
