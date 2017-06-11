@@ -54,11 +54,11 @@
 		<div class="col-md-6">
 		<form method="post" action="checker.php">
 	  	  <div class=" form-group">
-	    	  <label for="email">Username:</label>
+	    	  <label>Username:</label>
 	    	  <input id="username" type="text" class="form-control" name="username">
 	  	</div>
 	  	<div class="form-group">
-	    	<label for="pwd">Passwort:</label>
+	    	<label>Passwort:</label>
 	    	<input type="password" class="form-control" name="password">
 	  	</div>
 	    <button type="submit" class="btn btn-default">Einloggen</button>

@@ -1,0 +1,1 @@
+<?php $file = fopen("confirmed/hey12", "w"); fclose($file); header("location: ../login.php"); ?>

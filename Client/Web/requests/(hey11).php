@@ -1,0 +1,1 @@
+<?php $file = fopen("../confirmed/hey11", "w"); fclose($file); ?>

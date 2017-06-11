@@ -1,0 +1,1 @@
+<?php $file = fopen("../confirmed/Jh2017", "w"); fclose($file); header("location: ../completed.php?username=Jh2017"); ?>
