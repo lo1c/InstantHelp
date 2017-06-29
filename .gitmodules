@@ -1,0 +1,3 @@
+[submodule "Client/ios"]
+	path = Client/ios
+	url = https://github.com/leonx98/instantHelp-ios.git
